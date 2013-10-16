@@ -1,9 +1,9 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'REST and Serialization<br>in Drupal 8',
-    subtitle: 'Connecting Drupal and Web Services',
-    eventTitle: 'DrupalCon Prague 2013',
+    title: 'A tour of tour<br>in Drupal 8',
+    subtitle: 'Guiding users through Drupal',
+    eventTitle: 'Drupal 8 Tour Sprint',
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.
@@ -19,16 +19,11 @@ var SLIDE_CONFIG = {
 
   // Author information
   presenters: [{
-    name: 'Lin Clark',
-    company: 'Senior Performance Engineer, Tag1 Consulting',
-    twitter: '@linclark',
-    www: 'http://lin-clark.com',
-    github: 'http://github.com/linclark'
-  }, {
-    name: 'Klaus Purer',
-    company: 'Developer, epiqo.com',
-    twitter: '@_klausi_',
-    www: 'http://klau.si',
+    name: 'Lee Rowlands',
+    company: 'Senior Drupal Developer, PreviousNext',
+    twitter: '@larowlan',
+    www: 'http://previousnext.com.au',
+    github: 'http://github.com/larowlan'
   }]
 };
 
