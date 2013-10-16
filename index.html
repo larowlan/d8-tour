@@ -1,7 +1,12 @@
 <!--
+Drupal 8 - Tour of Tour presentation for use pre Tour sprints.
+
+Adapted from
 REST and Serialization in Drupal 8 presentation by Lin Clark and Klaus Purer
 presented at DrupalDevDays 2013
+URL: https://github.com/linclark/d8-rest-slides
 
+Which was
 Adapted from the Google IO 2012/2013 HTML5 Slide Template
 
 Authors: Eric Bidelman <ebidel@gmail.com>
@@ -43,22 +48,43 @@ URL: https://code.google.com/p/io-2012-slides
 
   <slide class="nobackground">
       <section class="flexbox vcenter">
-        <h2><a href="http://linclark.github.io/d8-rest-slides">linclark.github.io/d8-rest-slides</a></h2>
+        <h2><a href="http://larowlan.github.io/d8-tour">larowlan.github.io/d8-tour</a></h2>
       </section>
   </slide>
 
   <slide class="segue dark nobackground">
     <aside class="gdbar"></aside>
     <hgroup class="auto-fadein">
-      <h2>What is REST?</h2>
+      <h2>A Tour of Tour</h2>
     </hgroup>
   </slide>
-  <!-- Introducing Terms -->
+  <slide class="segue dark nobackground">
+    <aside class="gdbar"></aside>
+    <hgroup class="auto-fadein">
+      <dt>A Tour</dt>
+      <dl class="build">
+        <dt>Consists of tips</dt>
+        <dt>Each tip is shown in turn</dt>
+        <dt>Is represented by a yml file</dt>
+    </hgroup>
+  </slide>
+   <slide class="segue dark nobackground">
+    <aside class="gdbar"></aside>
+    <hgroup class="auto-fadein">
+      <dt>A Tip</dt>
+      <dl class="build">
+        <dt>Can be of many types but primarily text</dt>
+        <dt>Targets a specific element</dt>
+        <dt>Can contain tokens</dt>
+    </hgroup>
+  </slide>
+</slides>
+  <!-- Introducing Terms --
   <slide>
     <section>
       <dl class="build">
-        <dt>Web Services</dt>
-        <dd>A web service is a method of communication between two electronic devices over the World Wide Web.
+        <dt>A Tour</dt>
+        <dd>A tour consists of tips</dd>.
           <div class="intro-walkthrough build">
             <section><img src="images/osm-phone.png" /></section>
             <section><img src="images/OpenStreetMap.png" style="padding-top:70px" /></section>
@@ -153,7 +179,7 @@ URL: https://code.google.com/p/io-2012-slides
           <div>POST /endpoint</div>
           <div>{ id: 3 }</div>
           <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" style="position:relative; left:0px; top: -60px;">
-            <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+            <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ --
             <g>
               <title>Cross out</title>
               <line stroke="#bf0000" id="svg_2" y2="69" x2="5" y1="5" x1="179" fill-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
@@ -190,7 +216,7 @@ to other resources.
           <div>/node/1.json</div>
           <div>/node/1.hal_json</div>
           <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" style="position:relative; left:0px; top: -60px;">
-            <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+            <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ --
             <g>
               <title>Cross out</title>
               <line stroke="#bf0000" id="svg_2" y2="69" x2="5" y1="5" x1="179" fill-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
@@ -225,7 +251,7 @@ to other resources.
           <div>/node/1/get</div>
           <div>/node/add</div>
           <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" style="position:relative; left:0px; top: -60px;">
-            <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+            <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ --
             <g>
               <title>Cross out</title>
               <line stroke="#bf0000" id="svg_2" y2="69" x2="5" y1="5" x1="179" fill-opacity="0" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
@@ -450,7 +476,7 @@ to other resources.
     </article>
   </slide>
 
-  <!-- Demonstrations -->
+  <!-- Demonstrations --
   <slide class="segue dark nobackground">
     <aside class="gdbar"></aside>
     <hgroup class="auto-fadein">
@@ -983,7 +1009,7 @@ class DBLogResource extends ResourceBase {
     </section>
   </slide>-->
 
-  <!-- Serialization -->
+  <!-- Serialization --
   <slide class="segue dark nobackground">
     <aside class="gdbar"></aside>
     <hgroup class="auto-fadein">
@@ -1021,7 +1047,7 @@ class DBLogResource extends ResourceBase {
     </hgroup>
     <article class="build">
       <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
-        <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+        <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ --
         <g>
           <title>Layer 1</title>
           <polyline se:connector="svg_3 svg_8" fill="none" stroke-width="3" stroke="#999999" points="82,117.45491027832031 147.97955322265625,141.43057250976562 213.95912170410156,165.40625" id="svg_26"/>
@@ -1058,7 +1084,7 @@ class DBLogResource extends ResourceBase {
         </div>
         <div style="position: absolute; z-index: 1000; top:130px;">
           <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
-            <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+            <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ --
             <g>
               <title>Node graph</title>
               <ellipse id="svg_16" stroke="#e4e4e4" ry="26" rx="62" cy="241.5" cx="241.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" fill="lightblue"/>
@@ -1127,7 +1153,7 @@ $format is 'json'
     </article>
   </slide>
 
-  <!-- Serialization -->
+  <!-- Serialization --
   <slide class="segue dark nobackground">
     <aside class="gdbar"></aside>
     <hgroup class="auto-fadein">
@@ -1142,7 +1168,7 @@ $format is 'json'
     </hgroup>
     <section>
       <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" style="position:absolute; top:200px; left:360px;">
-        <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+        <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ --
         <g>
           <title>Layer 1</title>
           <ellipse stroke="#bf0000" ry="38" rx="208.50001" id="svg_1" cy="65" cx="221.50001" fill-opacity="0" stroke-width="5" fill="#000000"/>
@@ -1327,7 +1353,7 @@ $cancel_url = $appt['http://med.org/rels/cancel']['uri'];
       <h2>Questions?</h2>
     </article>
     <p class="auto-fadein" data-config-contact>
-      <!-- populated from slide_config.json -->
+      <!-- populated from slide_config.json --
     </p>
   </slide>
 
@@ -1340,7 +1366,7 @@ $cancel_url = $appt['http://med.org/rels/cancel']['uri'];
       <p>Thank you!</p>
     </article>
     <p class="auto-fadein" data-config-contact>
-      <!-- populated from slide_config.json -->
+      <!-- populated from slide_config.json --
     </p>
   </slide>
 
@@ -1362,7 +1388,7 @@ _gaq.push(['_trackPageview']);
   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
-</script>
+</script> -->
 
 <!--[if IE]>
   <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
